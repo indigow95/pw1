@@ -156,10 +156,6 @@ h2 {
   color: #F2E8CF;
 }
 
-input {
-  margin-bottom: 3%;
-}
-
 .botao {
   padding: 18px 23px; /* vertical- horizontal*/
   font-size: 1.5em;
@@ -168,4 +164,40 @@ input {
   font-style: normal;
   font-weight: 600;
   cursor: pointer;
+}
+
+/*--- CONTAINER CONTATO ---*/
+
+.areaForm {
+  padding: 5px ;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 3%;
+  width: 460px;
+  background-color: #F2E8CF;
+  outline: 2px solid #BB4748;
+  border-radius: 7px;
+}
+
+#enviar {
+  padding: 10px 15px;
+  background: #6A984D;
+  border: 2px solid #386641;
+  border-radius: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2em;
+  text-align: center;
+  color: #F2E8CF;
+  margin-right: 10%;
+  cursor: pointer;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
