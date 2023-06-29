@@ -4,10 +4,11 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var open = require('openurl').open;
+const enviarEmailRouter = require('./routes/enviarEmail');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var registroRouter = require('./routes/registro');
+var registroRouter = require('./routes/registro'); //registro virou enviarEmail
 
 var app = express();
 
